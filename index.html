@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="sytile.css">
+</head>
+<body>
+<nav>
+    <ul class="topnav">
+    <li><a href="home">HOME</a></li>
+    <li><a href="contract">CONTRACT</a></li>
+    <li><a href="news">NEWS</a></li>
+    <li><a href="about">ABOUT</a></li>
+    <li><a href="link">LINK</a></li>
+    <li class="topnav-right"><a href="# signup">SIGN UP</a></li>
+    <li class="topnav-lift"><a href="# signIN">SIGN IN</a></li>
+    
+
+
+   <li class="dropdownIcan"><a href="">	
+    &#9776;</a></li> 
+
+    </ul>
+</nav>
+
+
+<script>
+    function dropdownIcan(){
+        var x=document.getElementById("dropdownclick");
+        if(x.className==="topnav"){x.className+="responsive";
+
+        }else{
+            x.className="topnav";
+        }
+    }
+</script>
+</html>

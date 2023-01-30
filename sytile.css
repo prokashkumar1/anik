@@ -1,0 +1,64 @@
+nav,header,footer{   
+display: block;    
+}
+
+
+
+body{
+line-height: 1;
+margin: 0;
+}
+nav{
+width:100%;
+margin:0;
+
+}
+nav ul{
+background-color: #eee;
+overflow:hidden;
+margin:0;
+padding: 0;
+
+
+}
+ul.topnav li{
+
+list-style: none;
+float: left;
+
+
+}
+ul.topnav li.topnav-right{
+float:left;
+}
+ul.topnav li a{
+display:block;
+text-decoration: none;
+min-height: 16px;
+padding:14px;
+text-align: center;
+text-transform: capitalize;
+color: #666;
+
+}
+ul.topnav li a:hover{
+background-color: #0008ff;
+color: #fff;
+
+}
+ul.topnav li.dropdownIcan{
+    display:none;
+
+}
+@media screen and (max-width:680px){ul.topnav li:not(:nth-child(1)){display:none;}
+   
+ul.topnav li.dropdownIcan{
+    display:block; 
+    float: right;  
+}
+ul: .topnav.responsive li a{
+    display:block;
+    text-align: left;
+};
+
+

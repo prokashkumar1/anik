@@ -1,0 +1,29 @@
+.{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+
+min-height: 100vh;
+background: var(red);
+color:var(green)
+
+
+
+}
+header{
+position:fixed;
+width: 100#%;
+top:0;
+z-index: 1000;
+dispaly:flex;
+align-items:center;
+
+
+
+}
